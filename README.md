@@ -1,5 +1,5 @@
 [![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](http://ForTheBadge.com) &nbsp;
-[![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](http://ForTheBadge.com) <br>
+[![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](http://ForTheBadge.com)
 
 
 
@@ -7,7 +7,7 @@
 
 Design: [Fcuksense](https://cdn.discordapp.com/attachments/850245533838868480/850246623883034644/login_screen.png)
 
-Site published at: 
+Site published at: https://kkaciusis.github.io/front-end-testas/
 
 ## Authors
 
