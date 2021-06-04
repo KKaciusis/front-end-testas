@@ -25,6 +25,22 @@ body {
       margin: 0;
   }
 .left-column {
+    box-sizing: border-box;
     width: 40%;
     float: left;
+}
+.name {
+    color: #3A52F4;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    font-size: 35px;
+}
+.slogan {
+    font-size: 35px;
+    color: #1F3053;
+}
+.please {
+    color: #898A9C;
+    font-size: 15px;
+    margin-bottom: 50px;
 }
