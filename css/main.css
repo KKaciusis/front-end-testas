@@ -27,6 +27,7 @@ body {
 .left-column {
     box-sizing: border-box;
     width: 40%;
+    height: 100vh;
     float: left;
 }
 .inside {
