@@ -5,11 +5,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="./css/buttons.css">
-        <link rel="stylesheet" href="./css/form.css">
-        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="../css/buttons.css">
+        <link rel="stylesheet" href="../css/form.css">
+        <link rel="stylesheet" href="../css/main.css">
 
-        <title>Fcuksense</title>
+        <title>Sign Up</title>
     </head>
     <body>
         <main>
@@ -17,8 +17,12 @@
                 <div class="inside">
                     <h2 class="name">Fcuksense</h2>
                     <h2 class="slogan">Artifical intelligence driving result for the travel industry</h2>
-                    <p class="please">Welcome back, please login to your account</p>
+                    <p class="please">Welcome, please sign up</p>
                     <form class="form">
+                        <div class="form-row">
+                            <label for="username">Username</label>
+                            <input id="text" type="text" required>
+                        </div>
                         <div class="form-row">
                             <label for="Email">Email adress</label>
                             <input  id="Email" type="email" required>
@@ -27,18 +31,17 @@
                             <label for="pass">Password</label>
                             <input  id="pass" type="password" required>
                         </div>
-                        <div class="remmemberme">
-                            <input type="checkbox" id="rememberme" name="remmemberme" value="e">
-                            <label for="remmemberme">Remmember Me</label>
-                            <a class="forget" href="./forgot-password/">Forget password</a>
+                        <div class="form-row">
+                            <label for="re-pass">Repeat password</label>
+                            <input  id="re-pass" type="password" required>
                         </div>
                         <div class="button">
-                            <button  type="submit">Login</button>
-                            <button><a href="sign-up/index.php" target="_blank">Sign up</a></button>
+                            <button class="login" type="submit">Sign Up</button>
+                            <button><a href="../index.php" target="_blank">Log in</a></button>
                         </div>
                     </form>
                     <div class="bottom-links">
-                        <p class="alternative" >Or login with</p>
+                        <p class="alternative" >Or register with</p>
                         <a target="_blank" href="#">Facebook</a>
                         <a target="_blank" href="#">Linkedin</a>
                         <a target="_blank" href="#">Google</a>
@@ -46,7 +49,7 @@
                 </div>
             </div>
             <div class="right-column">
-                <img src="./img/cover.png" alt="This is alternate text">
+                <img src="../img/cover.png" alt="This is alternate text">
             </div>
         </main>
     </body>
