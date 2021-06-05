@@ -30,6 +30,16 @@
   input:focus{
     outline: none;
 }
- 
+.remmemberme {
+    margin-top: 20px;
+}
+.remmemberme > label {
+color: #898A9C;
+}
+.forget {
+    float: right;
+    color: #898A9C;
+    text-decoration: none;
+}
 
 
