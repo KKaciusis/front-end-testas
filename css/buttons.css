@@ -4,6 +4,9 @@
     gap: 30px;
     margin-top: 50px;
 }
+button:hover {
+    cursor: pointer;
+}
 button{
     padding: 10px 50px;
     border-radius: 5px;
