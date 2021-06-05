@@ -4,13 +4,16 @@
     gap: 30px;
     margin-top: 50px;
 }
+
 button:hover {
     cursor: pointer;
 }
+
 button{
     padding: 10px 50px;
     border-radius: 5px;
 }
+
 button:first-of-type {
     background-color: #3A52F4;
     color: #ffff;
@@ -20,17 +23,20 @@ button:last-of-type {
     color: #3A52F4;
     border: 2px solid #3A52F4;
 }
+
 button > a {
     text-decoration: none;
 }
+
 .bottom-links {
     display: flex;
     flex-direction: row;
     gap: 15px;
     margin-top: 15px;
 }
+
 .bottom-links > a  {
- margin-top: 15px;
- text-decoration: none;
- color: #3A52F4;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #3A52F4;
 }

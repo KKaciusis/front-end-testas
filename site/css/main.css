@@ -4,47 +4,52 @@ body {
     padding: 0;
     background-color: #ffff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
-  
-  main {
+}
+
+main {
     display: inline-block;
     width: 1000px;
     height: 100vh;
     margin-left: calc((100% - 1000px) / 2);
-  }
-  
+}
+
 .right-column {
     box-sizing: border-box;
     width: 60%;
     height: 100vh;
     margin: 0;
     float: right;
+}
 
-  }
-  .right-column > img {
-      height: 100vh;
-      margin: 0;
-  }
+.right-column > img {
+    height: 100vh;
+    margin: 0;
+}
+
 .left-column {
     box-sizing: border-box;
     width: 40%;
     height: 100vh;
     float: left;
 }
+
 .inside {
     box-sizing: border-box;
     width: 90%;
 }
+
 .name {
     color: #3A52F4;
     margin-top: 40px;
     margin-bottom: 60px;
     font-size: 35px;
 }
+
 .slogan {
     font-size: 25px;
     color: #1F3053;
 }
+
 .please {
     color: #898A9C;
     font-size: 15px;
