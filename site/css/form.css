@@ -3,9 +3,10 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-  }
-  .form-row {
-      box-sizing: border-box;
+}
+
+.form-row {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     padding: 15px 0 15px 20px;
@@ -13,29 +14,36 @@
     border: 1px solid lightgrey;
     font-size: 16px;
     font-weight: normal;
-  }
+}
+
 .form-row:hover {
     border-left: 5px solid #3A52F4;
     vertical-align: bottom
 }
-  .form-row > label {
+
+.form-row > label {
     width: 90%;
-  }
-  .form-row > input {
-      border: none;
-      width: 90%;
-      color:#3A52F4;
-      vertical-align: bottom
-  }
-  input:focus{
+}
+
+.form-row > input {
+    border: none;
+    width: 90%;
+    color:#3A52F4;
+    vertical-align: bottom
+}
+
+input:focus{
     outline: none;
 }
+
 .remmemberme {
     margin-top: 20px;
 }
+
 .remmemberme > label {
-color: #898A9C;
+    color: #898A9C;
 }
+
 .forget {
     float: right;
     color: #898A9C;
