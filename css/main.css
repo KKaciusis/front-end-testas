@@ -29,6 +29,10 @@ body {
     width: 40%;
     float: left;
 }
+.inside {
+    box-sizing: border-box;
+    width: 90%;
+}
 .name {
     color: #3A52F4;
     margin-top: 50px;

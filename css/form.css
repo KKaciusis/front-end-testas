@@ -1,30 +1,35 @@
 .form {
+    box-sizing: border-box;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    width: 80%;
   }
   .form-row {
+      box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    width: 80%;
-    padding: 10px 0 10px 0;
-  }
-
-  .form-row > label {
-    display: inline-block;
-    width: 80%;
-    text-transform: uppercase;
-    font-size: 14px;
-  }
-  .form-row.form-input {
-    padding: 10px 0 10px 18px;
+    padding: 15px 0 15px 20px;
+    width: 100%;
     border: 1px solid lightgrey;
     font-size: 16px;
     font-weight: normal;
-}
-
-  .form-row > input::placeholder {
-    font-size: 16px;
-    font-style: italic;
-    color: #E0E0E0;
   }
+.form-row:hover {
+    border-left: 5px solid #3A52F4;
+    vertical-align: bottom
+}
+  .form-row > label {
+    width: 90%;
+  }
+  .form-row > input {
+      border: none;
+      width: 90%;
+      color:#3A52F4;
+      vertical-align: bottom
+  }
+  input:focus{
+    outline: none;
+}
+ 
+
+
